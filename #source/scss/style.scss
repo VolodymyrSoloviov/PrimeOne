@@ -1,2 +1,20 @@
+//Connecting fonts
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+@font-face {
+   font-family: "Conv_akzidenzgroteskbq";
+   src: url("../fonts/akzidenzgroteskbq-bdcnd-opentype_bigfontsite.com.eot");
+   src: local("☺"), url("../fonts/akzidenzgroteskbq-bdcnd-opentype_bigfontsite.com.woff") format("woff"),
+      url("../fonts/akzidenzgroteskbq-bdcnd-opentype_bigfontsite.com.ttf") format("truetype"),
+      url("../fonts/akzidenzgroteskbq-bdcnd-opentype_bigfontsite.com.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
 // Nulling Styles File
 @import "nullstyle.scss";
+
+//Import css files
+@import "main.scss";
+@import "header.scss";
