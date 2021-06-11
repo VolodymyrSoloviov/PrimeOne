@@ -1,1 +1,1 @@
-//@append exampleFile.js;
+//@append ibg.js;
