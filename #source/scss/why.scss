@@ -1,0 +1,25 @@
+.why {
+   display: flex;
+}
+
+.why-column {
+   flex: 0 0 50%;
+}
+
+.why-text {
+   padding: 50px;
+   text-align: right;
+   background-color: #000;
+}
+
+.why-title {
+   font-size: 50px;
+   letter-spacing: 2.5px;
+   font-family: "Conv_akzidenzgroteskbq";
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+}
+
+.why-image {
+   height: 100%;
+}
