@@ -301,6 +301,67 @@ body {
   color: #fff;
 }
 
+.menu {
+  padding: 75px 0;
+}
+
+.menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+
+.menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+.menu-item .view-menu {
+  margin: 0 0 0 0;
+}
+.menu-item .btn {
+  margin: 0 0 30px 0;
+}
+
+.menu-item__imgBlock {
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 0 0 102% 0;
+}
+
+.menu-item__title {
+  max-width: 190px;
+  margin: 0 0 20px 0;
+  font-size: 25px;
+  font-family: "Conv_akzidenzgroteskbq";
+  color: black;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 2.5px;
+}
+
+.menu-item__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  max-width: 190px;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: black;
+  line-height: 1.667;
+}
+
 .ibg {
   background-position: center;
   background-size: cover;
