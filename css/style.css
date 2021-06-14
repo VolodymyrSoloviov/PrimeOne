@@ -362,6 +362,36 @@ body {
   line-height: 1.667;
 }
 
+.why {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.why-column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.why-text {
+  padding: 50px;
+  text-align: right;
+  background-color: #000;
+}
+
+.why-title {
+  font-size: 50px;
+  letter-spacing: 2.5px;
+  font-family: "Conv_akzidenzgroteskbq";
+  color: white;
+  text-transform: uppercase;
+}
+
+.why-image {
+  height: 100%;
+}
+
 .ibg {
   background-position: center;
   background-size: cover;
