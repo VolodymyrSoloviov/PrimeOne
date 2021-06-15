@@ -1,0 +1,51 @@
+.products {
+   background-color: #ebebeb;
+   padding: 25px 0;
+}
+
+.products-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.products-item {
+   display: flex;
+   flex: 0 0 50%;
+   margin: 25px 0;
+}
+
+.products__image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex: 0 0 100px;
+   height: 100px;
+   background-color: #000;
+
+   img {
+      display: block;
+   }
+}
+
+.products__info {
+   display: flex;
+   flex-direction: column;
+   flex: 1 1 100%;
+   padding: 0 15px;
+}
+
+.products__title {
+   flex: 1 1 auto;
+   font-size: 25px;
+   letter-spacing: 2.5px;
+   font-family: "Conv_akzidenzgroteskbq";
+   color: rgb(0, 0, 0);
+   text-transform: uppercase;
+}
+
+.products__text {
+   font-size: 15px;
+
+   color: rgb(0, 0, 0);
+   line-height: 1.667;
+}
