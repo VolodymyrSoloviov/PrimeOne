@@ -103,7 +103,7 @@ body {
 }
 
 .container {
-  width: 880px;
+  max-width: 880px;
   margin: 0 auto;
 }
 
