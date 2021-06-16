@@ -546,6 +546,115 @@ body {
   margin: 0 0 0 0;
 }
 
+.footer-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.footer-map {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.footer-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  background-color: #000;
+  padding: 50px 0 50px 60px;
+}
+
+.footer-form-title {
+  margin: 0 0 25px 0;
+  font-size: 25px;
+  font-family: "Conv_akzidenzgroteskbq";
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-input,
+.form-textarea {
+  max-width: 375px;
+  height: 50px;
+  margin: 0 0 25px 0;
+  padding: 15px;
+  font-size: 15px;
+  color: #959595;
+  border: 2px solid #959595;
+  background-color: #252525;
+}
+
+.form-textarea {
+  height: 100px;
+  resize: none;
+}
+
+.footer-bottom {
+  padding: 30px 0;
+}
+
+.footer-bottom__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-bottom-text {
+  font-size: 15px;
+  color: #4d4d4d;
+}
+.footer-bottom-text a {
+  text-decoration: underline;
+  color: #4d4d4d;
+}
+
 .ibg {
   background-position: center;
   background-size: cover;

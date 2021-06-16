@@ -1,1 +1,1 @@
-function ibg(){let e=document.querySelectorAll(".ibg");for(var r=0;r<e.length;r++)e[r].querySelector("img")&&(e[r].style.backgroundImage="url("+e[r].querySelector("img").getAttribute("src")+")")}ibg();
+function ibg(){let e=document.querySelectorAll(".ibg");for(var t=0;t<e.length;t++)e[t].querySelector("img")&&(e[t].style.backgroundImage="url("+e[t].querySelector("img").getAttribute("src")+")")}let map;function initMap(){map=new google.maps.Map(document.getElementById("map"),{center:{lat:50.4483215,lng:30.5192705},zoom:8})}ibg();
