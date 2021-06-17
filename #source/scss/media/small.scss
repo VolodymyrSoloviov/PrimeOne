@@ -170,7 +170,32 @@
       }
    }
 
+   .private-info {
+      padding: 15px;
+   }
+
    .private-info-body {
       max-width: 100%;
+   }
+
+   .title {
+      margin: 0 0 15px 0;
+      font-size: 35px;
+   }
+
+   .private-text {
+      margin: 0 0 15px 0;
+      font-size: 14px;
+   }
+
+   .btn {
+      padding: 0 20px;
+      font-size: 16px;
+      line-height: 40px;
+      color: #fff;
+   }
+
+   .view-menu {
+      font-size: 16px;
    }
 }
