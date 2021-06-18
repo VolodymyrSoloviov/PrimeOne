@@ -37,4 +37,22 @@
    .contacts {
       padding: 25px 0 0 0;
    }
+
+   //footer********************
+
+   .footer-column {
+      flex: 0 0 100%;
+
+      &:first-child {
+         height: 300px;
+      }
+   }
+
+   .footer-form {
+      padding: 30px;
+   }
+
+   .footer-bottom {
+      padding: 15px 0;
+   }
 }

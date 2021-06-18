@@ -10,6 +10,12 @@
       padding: 0;
    }
 
+   //products********************
+
+   .products__title {
+      font-size: 20px;
+   }
+
    //contacts********************
 
    .contacts-item {
@@ -22,5 +28,20 @@
       &.contacts-item--socials {
          padding: 0;
       }
+   }
+
+   //footer********************
+
+   .footer-bottom {
+      padding: 10px 0;
+   }
+
+   .footer-bottom__wrapper {
+      flex-direction: column-reverse;
+   }
+
+   .footer-bottom-text {
+      text-align: center;
+      line-height: 1.5;
    }
 }
