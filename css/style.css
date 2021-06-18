@@ -492,7 +492,7 @@ body {
   padding: 50px 0 0 0;
 }
 
-.contscts-title {
+.contacts-title {
   font-size: 50px;
   margin: 0 0 30px 0;
   letter-spacing: 2.5px;
@@ -700,6 +700,10 @@ body {
 
   .products-item {
     margin: 0 0 25px 0;
+  }
+
+  .contacts {
+    padding: 25px 0 0 0;
   }
 }
 @media (max-width: 767.98px) {
@@ -946,6 +950,23 @@ body {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+
+  .contacts {
+    padding: 25px 0 10px 0;
+  }
+
+  .contacts-title {
+    font-size: 35px;
+    margin: 0 0 15px 0;
+  }
+
+  .contacts-item {
+    margin: 0 0 15px 0;
+  }
+
+  .socials-item {
+    margin: 0 15px 0 0;
+  }
 }
 @media (max-width: 575.98px) {
   .menu-column {
@@ -955,6 +976,19 @@ body {
   }
 
   .menu-column {
+    padding: 0;
+  }
+
+  .contacts-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+
+  .contacts-item {
+    padding: 0 0 0 35px;
+  }
+  .contacts-item.contacts-item--socials {
     padding: 0;
   }
 }

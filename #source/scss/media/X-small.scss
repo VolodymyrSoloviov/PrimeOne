@@ -9,4 +9,18 @@
    .menu-column {
       padding: 0;
    }
+
+   //contacts********************
+
+   .contacts-item {
+      flex: 0 0 100%;
+   }
+
+   .contacts-item {
+      padding: 0 0 0 35px;
+
+      &.contacts-item--socials {
+         padding: 0;
+      }
+   }
 }
