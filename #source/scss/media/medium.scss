@@ -1,0 +1,58 @@
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+   .container {
+      max-width: 720px;
+   }
+
+   //private********************
+
+   .private-info {
+      padding: 30px;
+   }
+
+   //why********************
+
+   .why-text {
+      padding: 30px;
+   }
+
+   //menu********************
+
+   .menu {
+      padding: 25px 0;
+   }
+
+   //products********************
+
+   .products-list {
+      margin: 0 0 -25px 0;
+   }
+
+   .products-item {
+      margin: 0 0 25px 0;
+   }
+
+   //contacts********************
+
+   .contacts {
+      padding: 25px 0 0 0;
+   }
+
+   //footer********************
+
+   .footer-column {
+      flex: 0 0 100%;
+
+      &:first-child {
+         height: 300px;
+      }
+   }
+
+   .footer-form {
+      padding: 30px;
+   }
+
+   .footer-bottom {
+      padding: 15px 0;
+   }
+}

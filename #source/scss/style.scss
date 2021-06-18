@@ -15,7 +15,7 @@
 // Nulling Styles File
 @import "nullstyle.scss";
 
-//Import css files
+//Import files
 @import "main.scss";
 @import "header.scss";
 @import "private.scss";
@@ -24,6 +24,13 @@
 @import "products.scss";
 @import "contacts.scss";
 @import "footer.scss";
+
+//Import media
+@import "media/X-large.scss";
+@import "media/large.scss";
+@import "media/medium.scss";
+@import "media/small.scss";
+@import "media/X-small.scss";
 
 .ibg {
    background-position: center;
